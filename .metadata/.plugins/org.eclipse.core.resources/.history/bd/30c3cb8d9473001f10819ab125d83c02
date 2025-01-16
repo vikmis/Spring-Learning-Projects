@@ -1,0 +1,25 @@
+package Autowire;
+
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import config.AppConfig;
+
+public class App {
+	
+	 public static void main(String[] args) {
+	     
+		 ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+		 
+		 SMSNotificationService smsService = context.getBean(SMSNotificationService.class);
+		 smsService.sendNotification("Hello, World!", "123-456-7890");
+		 
+		 SMSNotificationService smsService1 = context.getBean(SMSNotificationService.class);
+		 smsService.sendNotification("Hello, World!", "123-456-7890");
+		
+		
+		 
+
+}
+}

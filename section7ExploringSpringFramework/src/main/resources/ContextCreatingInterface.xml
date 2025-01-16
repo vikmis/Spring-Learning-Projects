@@ -1,0 +1,25 @@
+<!-- context.xml -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Define the SMSNotificationService bean -->
+    
+    <bean id="smsNotificationService" class="CreatingInterface.SMSNotificationService" />
+
+    <!-- Define the NotificationSender bean with SMSNotificationService injected -->
+    
+        <bean id="notificationSender" class="CreatingInterface.NotificationSender">
+        
+        <constructor-arg ref="smsNotificationService" />
+    </bean>
+</beans>
+
+
+
+
+
+
+
+

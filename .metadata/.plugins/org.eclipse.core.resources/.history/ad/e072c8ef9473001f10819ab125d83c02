@@ -1,0 +1,22 @@
+package Autowire;
+
+
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Scope;
+
+import com.VikashLearning.Section8WorkingWithJavaBeansConfig.SMSNotificationService;
+
+
+
+@Configuration
+public class AppConfig {
+	
+	@Bean
+	public SMSNotificationService smsNotificationService() {
+		
+		return new SMSNotificationService();
+	}
+
+}

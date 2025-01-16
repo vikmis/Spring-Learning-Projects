@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <delegateURI catalog="platform:/resource/" uriStartString="http://www.springframework.org/schema/beans"/>
+  <delegateURI catalog="platform:/resource/" uriStartString="https://repo.spring.io/xsd/spring-beans-6.1.10"/>
+</catalog>

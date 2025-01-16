@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.VikashLearning.Sestion_7____Exploring_Spring_Framwork.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.VikashLearning.Sestion_7____Exploring_Spring_Framwork.AppTest

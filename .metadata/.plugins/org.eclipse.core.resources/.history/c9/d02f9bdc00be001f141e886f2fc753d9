@@ -1,0 +1,13 @@
+package com.vikashLearning.App.Dao;
+
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.vikashLearning.App.Model.User;
+
+public interface UserRepo extends JpaRepository<User, Integer> {
+
+	
+	public User findByUsername(String username);
+	
+}

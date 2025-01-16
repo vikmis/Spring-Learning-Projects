@@ -1,0 +1,3 @@
+spring.application.name=Section19SpringSecurityDemoEx
+spring.security.user.name=vikash
+spring.security.user.password=vik123

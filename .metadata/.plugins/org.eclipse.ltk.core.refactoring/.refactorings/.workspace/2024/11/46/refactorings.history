@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;spring-boot-rest&apos; to &apos;Section14SpringBootRest&apos;" description="Rename resource &apos;spring-boot-rest&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/spring-boot-rest" name="Section14SpringBootRest" stamp="1731511912273" updateReferences="true"/>
+</session>

@@ -1,0 +1,24 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="alien" class="com.vikashlearningConstructerInjection.AlienConstructorInj" >
+	
+	
+	<!-- <constructor-arg type = "com.vikashlearningConstructerInjection.LaptopConstructorInj" ref ="lap" />
+	<constructor-arg type ="int" value = "21" /> -->
+	
+	<!-- <constructor-arg index="1" ref ="lap" />
+	<constructor-arg index="0" value ="21" /> -->
+	
+	
+	
+	<!-- <property name="laptop" ref ="lap"/>   -->
+	</bean>
+	
+	 <bean id="lap" class="com.vikashlearningConstructerInjection.LaptopConstructorInj">
+    </bean>
+	
+	
+</beans>

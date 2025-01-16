@@ -1,0 +1,15 @@
+<!-- context.xml -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Define EmailNotificationService bean with lazy initialization -->
+    <bean id="emailNotificationService" class="lazyInitBean.EmailNotificationService" lazy-init="true"/>
+
+    <!-- Define SMSNotificationService bean without lazy initialization -->
+    <bean id="smsNotificationService" class="lazyInitBean.SMSNotificationService"/>
+
+    <!-- Define NotificationSender bean and enable autowiring by type -->
+    <bean id="notificationSender" class="lazyInitBean.NotificationSender" autowire="constructor"/>
+</beans>

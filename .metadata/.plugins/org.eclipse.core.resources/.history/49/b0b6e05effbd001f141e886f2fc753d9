@@ -1,0 +1,5 @@
+package com.vikashLearning.App.Model;
+
+public class User {
+
+}
